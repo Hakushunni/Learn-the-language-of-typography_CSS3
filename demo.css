@@ -1,12 +1,31 @@
-nav {
+body {
+    display: flex;
+ }
+ main {
+    width: 100%;
+    border-left: 1px solid silver;
+    margin-left: 5pt;
+    padding-left: 5pt
+ }
+ nav {
+    width: 200px;
     background-color: steelblue;
     color: white; 
     display: flex; 
-    padding: 5pt;
+    padding: 5pt;    
  }
- .mtype  {width: 100%}
+ .mtype  {
+    width: 100%;
+ }
  .mtitle {
     font-weight: bolder;
     font-size: 125%;
     margin-bottom: 5pt;
+ }
+ .mtype:nth-child(even)  {
+    background-color: dimgre;
+ }
+ .mtype:hover    {
+    background-color: white;
+    color: black;
  }
