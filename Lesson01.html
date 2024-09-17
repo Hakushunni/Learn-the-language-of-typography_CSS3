@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-hant">
+<head>
+ <title>網頁程式設計</title>
+ <style type="text/css">
+   li[data-category]        {background-color: gold}
+   li[data-type="cold"]     {color: grey}
+   li[data-type="iced"]     {color: blue}
+   li[data-type~="hot"]     {border: 1px solid red}
+ </style>
+</head>
+<body>
+   <ul>
+       <li>飲料選單</li>
+       <li data-category="tea" data-type="hot iced">菊花潽洱</li>
+       <li data-category="tea" data-type="hot">烏龍茶</li>
+       <li data-category="water" data-type="cold">白開水</li>
+       <li data-category="juice" data-type="iced">柳橙汁</li>
+       <li data-category="juice" data-type="iced">蘋果汁</li>
+       <li data-category="juice" data-type="iced hot">金桔檸檬</li>
+   </ul>
+</body>
+</html>
